@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+		body{
+			padding-bottom: 100px;
+		}
+		img {
+			height: 250px;
+		}
+		aside {
+			float: right;
+			height: 250px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		p {
+			font-size: 20px;
+			line-height: 1.5;
+		}
+		.products{
+			border:1px solid #ccc;
+			width: 600px;
+			padding: 20px;
+			margin-bottom: 20px;
+			float: left;
+    		min-height: 650px;
+    		margin-left: 10px;
+			position:relative;
+			box-sizing: border-box;
+		}
+		footer {
+			border-top:1px solid #ccc;
+			padding-top: 20px;
+		}
+		button {
+			background-color: #89beff;
+			border: none;
+			padding: 8px 20px;
+			border-radius: 3px;	
+			font-size: 20px;
+		}
+		a{
+			 background-color: #7facf191;
+			display: inline-block;
+			padding: 10px 20px;
+			text-decoration: none;
+			border-radius: 5px;
+		}
+		.message{
+			background-color: #ed8787;
+			padding: 10px;
+			margin: 10px;
+			box-sizing: border-box;
+			border-radius: 5px;
+			border: 1px solid #fff;
+			text-transform: capitalize;
+			letter-spacing: 1px;
+			color: #fff;
+			font-size: 17px;
+			font-style: italic;
+			width: 1212px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.cont{
+			width: 1230px;
+			
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+
+
